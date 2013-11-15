@@ -8,6 +8,7 @@ gpPink='#f4d5e3'
 gpLightBlue='#e1f4fd'
 
 def setStyle():
+  mpl.rcParams['axes.color_cycle']=[gpBlue,gpDarkBlue,gpRed,gpLightGray,gpBrown,gpPink,gpLightBlue]
   mpl.rcParams['axes.edgecolor'] = gpLightGray
   mpl.rcParams['axes.linewidth'] = 0
   mpl.rcParams['lines.linewidth'] = 2
